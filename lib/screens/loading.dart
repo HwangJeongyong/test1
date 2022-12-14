@@ -63,6 +63,7 @@ class Loading extends StatelessWidget {
                         child: Column(
                           children: [
                             TextButton(onPressed: (){
+                              Navigator.pop(context);
                               Navigator.push(context, MaterialPageRoute(builder: (context) => SearchScreen()));
                             }, child: Text('save0')),
                             TextButton(onPressed: (){}, child: Text('save1')),

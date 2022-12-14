@@ -290,7 +290,6 @@ class _SearchScreenState extends State<SearchScreen> {
       jsonMap = (saveData0.getStringList('jsonMap') ?? []);
       imageList = (saveData0.getStringList('imageList') ?? []);
     });
-    return saveData0;
   }
 
   void saveSaveData() async {
